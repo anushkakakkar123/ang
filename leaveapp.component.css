@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    color: #000;
+  }
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 40px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown;
+    padding: 10px;
+    display: block;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff; 
+    padding: 10px 10px 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 20px;
+    margin: 0 auto;
+    display: block;
+  }
+ 
+  
+ button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin: 0 auto;
+    display: block;
+    }
+      
+  button:hover {
+    background-color: #ccc;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
